@@ -3,7 +3,7 @@ variable "instance_name" {
 }
 
 variable "key_name" {
-  default = "aws_access_key"                  # Names of key in aws
+  default = "amazon-prime-video"                  # Names of key in aws
 }
 
 

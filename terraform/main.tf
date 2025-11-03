@@ -9,10 +9,10 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  region = "us-east-1"
-  access_key = var.access_key
-  secret_key = var.secret_key
+  region  = "us-east-1"
+  profile = "default"   # uses credentials from `aws configure`
 }
+
 
 # create security group for the ec2 instance
 resource "aws_security_group" "ec2_security_group" {
@@ -41,7 +41,7 @@ resource "aws_security_group" "ec2_security_group" {
 }
 
 resource "aws_instance" "Monitoring_server" {
-ami = "ami-00bb6a80f01f03502"  
+ami = "ami-0023921b4fcd5382b "  
 instance_type = "t2.medium"
 security_groups = [aws_security_group.ec2_security_group.name]
 key_name = "monitoring-key"

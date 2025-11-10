@@ -34,7 +34,7 @@
 
 Let's connect and discuss DevSecOps  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammed-aseem-akram/)  
+[![LinkedIn](https://www.linkedin.com/in/riya-katiyar-821752391/?trk=opento_sprofile_details)  
 
 
 
